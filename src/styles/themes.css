@@ -1,0 +1,115 @@
+/* CSS Variables for Theme System */
+
+/* Dark Theme (Default) */
+[data-theme="dark"] {
+  /* Background Colors */
+  --bg-primary: #0b141a;
+  --bg-secondary: #111b21;
+  --bg-tertiary: #202c33;
+  --bg-quaternary: #2a3942;
+  
+  /* Text Colors */
+  --text-primary: #e9edef;
+  --text-secondary: #8696a0;
+  --text-tertiary: #667781;
+  
+  /* Accent Colors */
+  --accent-primary: #00a884;
+  --accent-secondary: #008f73;
+  --accent-hover: #005c4b;
+  
+  /* Border Colors */
+  --border-primary: #2a3942;
+  --border-secondary: #374151;
+  
+  /* Hover Colors */
+  --hover-bg: #2a3942;
+  --hover-bg-light: #374151;
+  
+  /* Message Colors */
+  --message-sent: #005c4b;
+  --message-received: #202c33;
+  
+  /* Status Colors */
+  --status-online: #00a884;
+  --status-offline: #8696a0;
+  
+  /* Shadow */
+  --shadow: rgba(0, 0, 0, 0.3);
+}
+
+/* Light Theme */
+[data-theme="light"] {
+  /* Background Colors */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f7f8fa;
+  --bg-tertiary: #e9ecef;
+  --bg-quaternary: #dee2e6;
+  
+  /* Text Colors */
+  --text-primary: #1f2937;
+  --text-secondary: #6b7280;
+  --text-tertiary: #9ca3af;
+  
+  /* Accent Colors */
+  --accent-primary: #007bff;
+  --accent-secondary: #0056b3;
+  --accent-hover: #004085;
+  
+  /* Border Colors */
+  --border-primary: #e5e7eb;
+  --border-secondary: #d1d5db;
+  
+  /* Hover Colors */
+  --hover-bg: #f3f4f6;
+  --hover-bg-light: #e5e7eb;
+  
+  /* Message Colors */
+  --message-sent: #00a884;
+  --message-received: #f1f3f4;
+  
+  /* Status Colors */
+  --status-online: #28a745;
+  --status-offline: #6c757d;
+  
+  /* Shadow */
+  --shadow: rgba(0, 0, 0, 0.1);
+}
+
+/* Global Theme Variables */
+:root {
+  /* Animation */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.2s ease;
+  --transition-slow: 0.3s ease;
+  
+  /* Border Radius */
+  --radius-small: 4px;
+  --radius-medium: 8px;
+  --radius-large: 12px;
+  --radius-full: 50%;
+  
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 20px;
+  --spacing-2xl: 24px;
+  
+  /* Font Sizes */
+  --text-xs: 11px;
+  --text-sm: 12px;
+  --text-base: 14px;
+  --text-lg: 16px;
+  --text-xl: 17px;
+  --text-2xl: 18px;
+  
+  /* Z-index */
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal: 1040;
+  --z-popover: 1050;
+  --z-tooltip: 1060;
+}

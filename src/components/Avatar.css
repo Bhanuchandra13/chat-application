@@ -1,0 +1,40 @@
+.avatar-container {
+  position: relative;
+  display: inline-block;
+}
+
+.avatar-image {
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.avatar-small .avatar-image {
+  width: 32px;
+  height: 32px;
+}
+
+.avatar-medium .avatar-image {
+  width: 40px;
+  height: 40px;
+}
+
+.avatar-large .avatar-image {
+  width: 49px;
+  height: 49px;
+}
+
+.online-indicator {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 12px;
+  height: 12px;
+  background-color: var(--status-online);
+  border: 2px solid var(--bg-secondary);
+  border-radius: 50%;
+}
+
+.avatar-large .online-indicator {
+  border-color: var(--bg-tertiary);
+}
